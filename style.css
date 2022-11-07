@@ -400,6 +400,6 @@ button:hover {
   .banner-message {
     display:block;
     width:100%;
-    text-align-last:center;
+    text-align-last:justify;
   }
 }
