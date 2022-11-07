@@ -387,15 +387,14 @@ button:hover {
     height:30px;
     overflow:hidden;
     flex-flow: row nowrap;
-    justify-content:space-between;
     color:#FFFFFF;
     margin-top:0;
     padding:20px 25px;
     align-items:center;
   }
 
-  #nav {
-    width:100vw;
+  #nav, #footer {
+    justify-content:center;
   }
 
   .banner-message {
