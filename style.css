@@ -47,8 +47,6 @@ html, body {
   color:#FFFFFF;
   margin-top:0;
   padding:20px 25px;
-  text-align:justify;
-  text-align-last:justify;
   align-items:center;
 }
 
@@ -375,7 +373,7 @@ button:hover {
       margin-bottom:15vmin;
     }
 
-  .nav-item:not(#banner-message) {
+  .nav-item:not(.banner-message) {
     display:none;
   }
 
@@ -394,10 +392,10 @@ button:hover {
   }
 
   #nav {
-    justify-content:center;
+    width:100vw;
   }
 
-  #banner-message {
+  .banner-message {
     display:block;
     width:100%;
     text-align:justify;
