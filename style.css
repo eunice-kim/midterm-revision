@@ -11,6 +11,12 @@ html, body {
   visibility:visible !important;
 }
 
+#overall-container {
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+}
+
 #now-playing, #now-playing-two {
   transform:translateX(100%);
   top:27vh;
@@ -350,7 +356,7 @@ button:hover {
 
 
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-device-width : 768px) {
 
   .arrow {
     display:block;
@@ -372,19 +378,6 @@ button:hover {
       transform:rotate(180deg);
       margin-bottom:15vmin;
     }
-
-  #overlap-container {
-    width:200vw;
-  }
-
-  @keyframes slide-left {
-    0% {
-      transform:translateX(200vw);
-    }
-    50%, 100% {
-      transform:translateX(-200vw);
-    }
-  }
 
   .nav-item:not(#banner-message) {
     display:none;
@@ -412,3 +405,4 @@ button:hover {
     width:100%;
     text-align-last:justify;
   }
+}
